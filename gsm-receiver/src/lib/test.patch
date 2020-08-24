@@ -1,0 +1,11 @@
+--- a/Makefile	2020-08-25 00:16:17.859551874 +0200
++++ b/Makefile	2020-08-25 00:19:19.651835759 +0200
+@@ -404,7 +404,7 @@
+ LD = /usr/bin/ld -m elf_x86_64
+ LDFLAGS = 
+ LIBOBJS = 
+-LIBOSMOCORE_CFLAGS = -pthread -I/usr/local/include/
++LIBOSMOCORE_CFLAGS = -I/usr/local/include/
+ LIBOSMOCORE_CPPFLAGS =  -I/usr/local/include/
+ LIBOSMOCORE_INCLUDEDIR = /usr/local/include
+ LIBOSMOCORE_LIBS = -L/usr/local/lib -ltalloc -losmocore -lsctp
